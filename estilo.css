@@ -1,0 +1,89 @@
+    .h1{color:aqua; font-size:32px;}
+        .supertitulo{background-color:black; font-size:50px;}
+        p{background-color: rgb(166, 224, 151); font-size:22px;}
+        body {
+            text-align: ;
+            background-image:url(telanaralfundo.jpg);
+            background-repeat: no-repeat;
+            background-size: 1920px;
+        }
+.botao1{
+    text-align: center;
+    background-image: url(clique-aqui.png);
+    background-size: 200px;
+    padding: 2px;
+    margin-left: 520px;
+    background-repeat: no-repeat;
+
+        animation: bounce 3.5s; /* Aplica a animação bounce */
+        animation: bounce 0.1s infinite;
+      }
+  
+      @keyframes bounce {
+        0% {
+          transform: scale(1); /* Tamanho normal */
+        }
+        25% {
+          transform: scale(0.9); /* Levemente reduzido */
+        }
+        50% {
+          transform: scale(1.1); /* Levemente maior */
+        }
+        75% {
+          transform: scale(0.95); /* Retorna um pouco menor */
+        }
+        100% {
+          transform: scale(1); /* Retorna ao tamanho original */
+        }
+      }
+  
+    
+
+
+#meutitulo1{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 48px; 
+    font-weight: bold; 
+    background-image: linear-gradient(45deg, #ff6a00, #ffcc00); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-align: center; 
+    
+}
+
+.efeitos2{
+    margin-top: -500px;
+    pointer-events: none;
+}
+.container {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+  }
+  
+  .item {
+    flex: 1 1 300px;
+    margin: 10px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;}
+@media (min-width: 1200px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1199px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
